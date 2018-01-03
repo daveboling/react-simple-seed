@@ -1,6 +1,6 @@
 {
   "name": "react-simple-seed",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Basic React seed project.",
   "main": "index.js",
   "scripts": {
