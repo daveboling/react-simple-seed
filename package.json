@@ -1,0 +1,46 @@
+{
+  "name": "react-simple-seed",
+  "version": "1.0",
+  "description": "Basic React seed project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node_modules/.bin/webpack-dev-server --port 8082",
+    "build": "NODE_ENV=development webpack --w",
+    "build:prod": "NODE_ENV=production webpack",
+    "lint": "prettier --single-quote --trailing-comma es5 --write \"{client/src,__{tests,mocks}__}/**/*.js\""
+  },
+  "author": "David Boling <daviddboling@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap-sass": "^3.3.7",
+    "moment": "^2.18.1",
+    "react": "^16.0.0",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-dates": "^12.6.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^4.4.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.1.2",
+    "react-select": "^1.0.0-rc.10",
+    "redux": "^3.3.1",
+    "redux-form": "^7.0.4",
+    "redux-thunk": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "chalk": "^2.1.0",
+    "css-loader": "^0.23.1",
+    "node-sass": "^4.5.3",
+    "prettier": "^1.7.0",
+    "redux-logger": "^2.6.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.8.1"
+  }
+}
